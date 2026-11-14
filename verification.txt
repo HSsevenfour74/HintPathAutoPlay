@@ -1,0 +1,12 @@
+GuidePath AutoTurn 1.1 verification
+PASS: MSVC x64 release DLL compile.
+PASS: executable logic tests: XZ ignores Y, horizontal misses, segment bounds, zero movement, teleport cutoff.
+PASS: 300ms boundary, timer reset, spawn overlap and crossed points consumed during grace, later point remains available.
+PASS: synthetic supported-build IL2CPP metadata lookup for inherited GetType.
+PASS: synthetic inactive scene HintPath and HintPath(Clone) activation, ancestor activation, unrelated name excluded.
+PASS: x64 PE, native exports, Windows DLL load, version 1.1 metadata, null Host rejection.
+PASS: installed DLL byte-for-byte matches tested DLL.
+USER CONFIRMED: original 1.0 loads and turns correctly in game.
+NOT YET TESTED IN GAME: 1.1 F9/native GetType lookup, inactive HintPath activation, startup grace and replay behavior.
+Backup: GuidePathAutoTurn/backup-v1.0
+Installed SHA256: 897408de8c3dc6eeb795abfbb7d99d6299344c0aafd51b51ca8be51e9482131d
