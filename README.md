@@ -1,5 +1,6 @@
 # GuidePath AutoTurn 1.1
 
+基于DLmember的模组加载器 https://github.com/DLmember/DLmodloader 开发。
 Hero 经过 GuidePathTap(Clone) 时调用游戏原生转向，每个点在一局内最多触发一次。
 
 ## 使用
